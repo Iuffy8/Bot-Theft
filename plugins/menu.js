@@ -8,7 +8,7 @@ export default {
   args: [],
   execution: ({ sock, m, args, prefix, sleep }) => {
     const plugins = getPlugins();
-    let menu = '『𝐀𝐍𝐀𝐒𝐓𝐀𝐒𝐈𝐀』\n\n❉ • • • ━━ ⌝┇اوامر┇⌞ ━━ • • • ❉\n\n';
+    let menu = '『 NF / LUFFY 』\n\n❉ • • • ━━ ⌝┇اوامر┇⌞ ━━ • • • ❉\n\n';
     const categories = {};
     plugins.forEach((plugin) => {
       if (plugin.hidden) return;
@@ -24,7 +24,7 @@ export default {
       menu += categories[category].join('\n');
       menu += '\n\n';
     });
-    menu += '❉ • • • ━━ ⌝┇🫦┇⌞ ━━ • • • ❉\n\n『⁩𝐀𝐍𝐀𝐒𝐓𝐀𝐒𝐈𝐀 𝐈𝐒 𝐖𝐎𝐑𝐊𝐈𝐍𝐆 𝐍𝐎𝐖 🫦』';
+    menu += '❉ • • • ━━ ⌝┇NF / LUFFY ┇⌞ ━━ • • • ❉\n\n『⁩ بتحياتي NF/LUFFY 』';
     sock.sendMessage(m.key.remoteJid, { text: menu });
   },
   hidden: false,

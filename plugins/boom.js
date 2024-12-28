@@ -11,8 +11,8 @@ export default {
       return sock.sendMessage(m.key.remoteJid, { text: 'أنت لا تملك صلاحية استخدام هذا الأمر.' });
     }
     try {
-      await sock.sendMessage(m.key.remoteJid, { text: '𝐀𝐂𝐓𝐈𝐕𝐀𝐓𝐄 𝐓𝐇𝐄 𝐓𝐈𝐌𝐄 𝐁𝐎𝐌𝐁 💣' });
-      await sock.sendMessage(m.key.remoteJid, { text: '𝐒𝐓𝐀𝐑𝐓 𝐓𝐇𝐄 𝐂𝐎𝐔𝐍𝐓𝐃𝐎𝐖𝐍 ⏳' });
+      await sock.sendMessage(m.key.remoteJid, { text: 'سيتم تشغيل امر القنبلة 💣' });
+      await sock.sendMessage(m.key.remoteJid, { text: 'بدا العد التنازلي لامر القنبلة⏳' });
       for (let i = 10; i >= 0; i--) {
         await sleep(500);
         await sock.sendMessage(m.key.remoteJid, { text: `*${i.toString().padStart(2, '0')}: 💣⏰*` });

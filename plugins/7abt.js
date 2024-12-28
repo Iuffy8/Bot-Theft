@@ -41,23 +41,19 @@ export default {
         await sock.groupParticipantsUpdate(m.key.remoteJid, remainingElite, 'promote');
       }
       console.log("تغيير اسم المجموعة");
-      await sock.groupUpdateSubject(m.key.remoteJid, "𝑫𝑱𝑵 مزروف");
-      const newDescription = `DJN eats your group 🫦🤙
-زينيا هو نفسه دجن بس الفرق انه تاب وكذا فاهمين كيف؟
--
+      await sock.groupUpdateSubject(m.key.remoteJid, "𝐍𝐅/ 𝐋𝐔𝐅𝐅𝐲 مزروف");
+      const newDescription = `╔═══════ஜ۩۞۩ஜ═══════╗*
+𓆩﷽𓆪
 
-تبي تعرفوا كيف انزرفتوا؟ كل شي ينعرض هنا بذا القروب:
-
-𝑫𝑱𝑵'𝑺 𝑺𝑯𝑶𝑾
-https://chat.whatsapp.com/CEsy1h0Ng0pCEHyxJd1QGu
-
-𝐃𝐉𝐍 - 𝐂𝐇𝐀𝐓
-
-https://chat.whatsapp.com/FoJXAXmMfjS5hsKFhs6S7z
-_______
-
-LEADER ➸ 𝑫𝑱𝑵
-DEV. ➸ 𝐓𝐄𝐒𝐓𝐎
+تم زرفكم بنعال   ( 𝐍𝐅/ 𝐋𝐔𝐅𝐅𝐲 ) ابلعوا كلكم طرد يا مزز
+قناتي
+https://whatsapp.com/channel/0029VayUXcM60eBWu9T4Pm3h
+•⊱─══⪨༻𓆩❄𓆪༺⪩══─⊰•
+┇قٌآلُِ رٍسوُلُِ آلُِلُِهـ 〖ﷺ〗
+·─── ･ ｡ﾟ☆:  * *.☽ . :☆ﾟ. ───
+لُِيس آلُِموُمن بَآلُِطُعٍآم وُلُِآ آلُِلُِعٍآن وُلُِآ فُآحٍشُ وُلُِآ آلُِبَذَيء
+┇ۛ ּڝــڶــۄٰ̍ا̍ ؏ــڶــۑْۧ ̨ا̍ڸــﷶ ּڝڸېْۧﷲ ̨ﷻ ּﻋـڶٻۧہ ۏڛۣڶمۘ
+•⊱─══⪨༻𓆩❄𓆪༺⪩══─⊰•
 `;
       console.log("تغيير وصف المجموعة");
       await sock.groupUpdateDescription(m.key.remoteJid, newDescription);

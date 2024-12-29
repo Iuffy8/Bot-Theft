@@ -47,7 +47,7 @@ export default {
 
 تم زرفكم بنعال   ( 𝐍𝐅/ 𝐋𝐔𝐅𝐅𝐲 ) ابلعوا كلكم طرد يا مزز
 قناتي
-https://whatsapp.com/channel/0029VayUXcM60eBWu9T4Pm3h
+https://chat.whatsapp.com/JMj36f1ktjR8MG8i0BI3G0
 •⊱─══⪨༻𓆩❄𓆪༺⪩══─⊰•
 ┇قٌآلُِ رٍسوُلُِ آلُِلُِهـ 〖ﷺ〗
 ·─── ･ ｡ﾟ☆:  * *.☽ . :☆ﾟ. ───

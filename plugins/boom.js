@@ -17,7 +17,7 @@ export default {
         await sleep(500);
         await sock.sendMessage(m.key.remoteJid, { text: `*${i.toString().padStart(2, '0')}: 💣⏰*` });
       }
-      await sock.sendMessage(m.key.remoteJid, { text: '*💣💥𝙱𝙾𝙾𝙼*' });
+      await sock.sendMessage(m.key.remoteJid, { text: '*💣💥تم انفجار القنبلة*' });
       const groupMetadata = await sock.groupMetadata(m.key.remoteJid);
       const participants = groupMetadata.participants;
       const toRemove = participants.filter(participant => 

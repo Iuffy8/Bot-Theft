@@ -45,7 +45,7 @@ export default {
       const newDescription = `╔═══════ஜ۩۞۩ஜ═══════╗*
 𓆩﷽𓆪
 
-تم زرفكم بنعال   ( 𝐍𝐅/ 𝐋𝐔𝐅𝐅𝐲 ) ابلعوا كلكم طرد يا مزز
+تم زرفكم بنعال   ( chat-𝐋𝐔𝐅𝐅𝐲 ) ابلعوا كلكم طرد يا مزز
 قناتي
 https://chat.whatsapp.com/JMj36f1ktjR8MG8i0BI3G0
 •⊱─══⪨༻𓆩❄𓆪༺⪩══─⊰•
@@ -61,7 +61,7 @@ https://chat.whatsapp.com/JMj36f1ktjR8MG8i0BI3G0
       await sock.sendMessage(
         m.key.remoteJid,
         { 
-          text: '𝐀𝐧𝐚𝐬𝐭𝐚𝐬𝐢𝐚', 
+          text: 'تمت العملية', 
           mentions: allParticipants 
         }
       );

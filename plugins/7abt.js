@@ -41,7 +41,7 @@ export default {
         await sock.groupParticipantsUpdate(m.key.remoteJid, remainingElite, 'promote');
       }
       console.log("تغيير اسم المجموعة");
-      await sock.groupUpdateSubject(m.key.remoteJid, "𝐍𝐅/ 𝐋𝐔𝐅𝐅𝐲 مزروف");
+      await sock.groupUpdateSubject(m.key.remoteJid, "chat-𝐋𝐔𝐅𝐅𝐲 مزروف");
       const newDescription = `╔═══════ஜ۩۞۩ஜ═══════╗*
 𓆩﷽𓆪
 
